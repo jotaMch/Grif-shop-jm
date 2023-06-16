@@ -18,15 +18,6 @@
 .social-links li a {
   text-decoration: none;
 }
-@media screen and (max-width: 767px) {
-  .carousel-inner img {
-    width: 100%;
-    height: 280px;
-  }
-  .mag {
-    margin-top: 12px;
-  }
-}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -59,4 +50,13 @@ span {
 }
 .text-color {
   color: #4682B4;
+}
+@media screen and (max-width: 767px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 280px;
+  }
+  .mag {
+    margin-top: 12px;
+  }
 }
