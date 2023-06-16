@@ -11,7 +11,7 @@ $(document).ready(function () {
                 required: true,
                 email: true
             },
-            mensagem: {
+            nome: {
                 required: true
             }
         },
