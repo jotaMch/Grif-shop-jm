@@ -1,3 +1,9 @@
+@import 'cabecalho.less';
+@import 'section.less';
+@import 'media.less';
+@import 'mapas.less';
+
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -16,62 +22,26 @@ body{
     height: 750px;
 }
 
-#cabecalho .nav .nav-link.active {
-    background-color: #fff;
-    color: #4682B4;
-}
-
-#cabecalho .nav .nav-link,
-.navbar-brand,
-.navbar-brand:hover,
-.nav-roupa .nav-link.active:hover {
-    color: #fff;
-}
-
 .nav-roupa .nav-link,
 span {
-    color: #4682B4;
+    color: #color[azulPricipal];
 }
 
 .nav-roupa .nav-link.active,
 #fale-conosco button {
-    background-color: #4682B4;
-    color: #fff;
+    background-color: #color[azulPricipal];
+    color: #color[colorText];
 }
 
 #sobre-a-loja,
 #roupa {
-    background-color: #dcf0ff;
+    background-color: #color[backgroundRoupas];
 }
 
 #fale-conosco button {
-    background-color: #4682B4;
-}
-
-.section-title {
-    font-family: 'Kalam', cursive;
-}
-
-.social-links li {
-    list-style: none;
-    display: inline;
-}
-
-.social-links li a {
-    text-decoration: none;
+    background-color: #color[azulPricipal];
 }
 
 .text-color {
-    color: #4682B4;
-}
-
-@media screen and (max-width: 767px) {
-    .carousel-inner img {
-        width: 100%;
-        height: 280px;
-    }
-
-    .mag {
-        margin-top: 12px;
-    }
+    color: #color[azulPricipal];
 }
